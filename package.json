@@ -13,22 +13,18 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint src/**/*.{js,ts,tsx} --quiet --fix"
+    "lint": "eslint src/**/*.{js,ts,tsx} --quiet --fix",
+    "lint-staged": "lint-staged",
+    "postinstall": "husky install"
   },
   "lint-staged": {
-    "*.{js,ts,tsx,json}": [
+    "*.{js,ts,tsx}": [
       "eslint . --fix",
       "prettier --write ."
     ],
     "*.svg": [
       "svgo"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm run test"
-    }
   },
   "browserslist": {
     "production": [
