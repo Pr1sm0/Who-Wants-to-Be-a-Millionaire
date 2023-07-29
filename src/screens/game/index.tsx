@@ -7,11 +7,11 @@ import config from '../../assets/config.json';
 import GameScreenEnum from '../../enums/GameScreenEnum';
 import getRewardStageSelector from '../../store/slices/reward-stage/rewardStageSelector';
 import RewardStage from '../../components/reward-stage';
+import SidebarButton from '../../components/sidebar-button';
 import { resetStage, setNextStage } from '../../store/slices/reward-stage/rewardStageSlice';
 import { setGameScreen } from '../../store/slices/game-screen/gameScreenSlice';
 import { setReward } from '../../store/slices/reward/rewardSlice';
 import { useDispatch, useSelector } from '../../store';
-import SidebarButton from '../../components/sidebar-button';
 
 const options = ['A', 'B', 'C', 'D'];
 
