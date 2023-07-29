@@ -1,0 +1,55 @@
+.root {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--black-100);
+}
+
+.label {
+  opacity: 50%;
+  font-size: 3.5vmin;
+  font-weight: var(--font-weight-600);
+  margin: 0;
+}
+
+.result {
+  font-size: 6vmin;
+  font-weight: var(--font-weight-600);
+  margin-top: 1vmin;
+  margin-bottom: 6vmin;
+}
+
+.logo {
+  height: 40vmin;
+}
+
+@media only screen and (max-width: 1024px) {
+  .root {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+  }
+
+  .logo {
+    padding-top: 20vmin;
+    height: 50vmin;
+  }
+
+  .label {
+    font-size: 4vmin;
+    text-align: center;
+  }
+
+  .result {
+    font-size: 8vmin;
+    text-align: center;
+  }
+}

@@ -1,0 +1,16 @@
+.stageCompleted {
+  fill: var(--black-40);
+}
+
+.stageActive {
+  fill: var(--orange-100);
+
+  > path {
+    stroke: var(--orange-100);
+  }
+}
+
+.text {
+  color: var(--black-100);
+  font-size: 1.3rem;
+}

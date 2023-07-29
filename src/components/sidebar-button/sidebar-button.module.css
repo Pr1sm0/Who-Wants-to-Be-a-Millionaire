@@ -1,0 +1,20 @@
+.sidebarButton {
+  display: none;
+}
+
+.buttonImage {
+  width: 8vmin;
+}
+
+@media only screen and (max-width: 1024px) {
+  .sidebarButton {
+    display: flex;
+    align-self: end;
+    width: fit-content;
+    margin: 4vmin 4vmin 0 0;
+    border: 0;
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+  }
+}
