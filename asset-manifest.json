@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/who-wants-to-be-a-millionaire/static/css/main.0426633e.css",
+    "main.css": "/who-wants-to-be-a-millionaire/static/css/main.c57ccef8.css",
     "main.js": "/who-wants-to-be-a-millionaire/static/js/main.cd1e3e10.js",
     "static/js/787.63bfb5cb.chunk.js": "/who-wants-to-be-a-millionaire/static/js/787.63bfb5cb.chunk.js",
     "static/media/Hand_With_Stars.svg": "/who-wants-to-be-a-millionaire/static/media/Hand_With_Stars.b5cfdb52d39d97f2d818fa7b55426542.svg",
     "index.html": "/who-wants-to-be-a-millionaire/index.html",
     "static/media/Close.svg": "/who-wants-to-be-a-millionaire/static/media/Close.ccde68c4223abc82b383cc33b967d81c.svg",
     "static/media/Menu.svg": "/who-wants-to-be-a-millionaire/static/media/Menu.cef239e942402f7fa19928a787d59686.svg",
-    "main.0426633e.css.map": "/who-wants-to-be-a-millionaire/static/css/main.0426633e.css.map",
+    "main.c57ccef8.css.map": "/who-wants-to-be-a-millionaire/static/css/main.c57ccef8.css.map",
     "main.cd1e3e10.js.map": "/who-wants-to-be-a-millionaire/static/js/main.cd1e3e10.js.map",
     "787.63bfb5cb.chunk.js.map": "/who-wants-to-be-a-millionaire/static/js/787.63bfb5cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0426633e.css",
+    "static/css/main.c57ccef8.css",
     "static/js/main.cd1e3e10.js"
   ]
 }
