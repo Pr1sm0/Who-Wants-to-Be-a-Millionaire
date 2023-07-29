@@ -80,7 +80,7 @@ export default function Game(): ReactElement {
       <div className={`${classes.wrapper} ${isSidebarOpen ? classes.hideWrapper : classes.showWrapper}`}>
         <SidebarButton isSidebarOpen={isSidebarOpen} onClick={handleSidebarButtonClick} />
         <div className={classes.question}>{questions[rewardStage - 1]?.question}</div>
-        <div className={classes.answersWrapper}>
+        <div>
           {options.map((option, i) => (
             <Answer
               key={option}

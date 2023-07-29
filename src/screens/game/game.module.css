@@ -17,10 +17,11 @@
   height: 100vh;
   width: 30vw;
   background: var(--white-100);
-  padding: 16vh 0;
+  padding: 14vh 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: auto;
 }
 
 .question {
@@ -40,9 +41,6 @@
     width: 100vw;
     padding: 0 0 4vh 0;
     background: var(--black-5);
-    > button {
-      padding-bottom: 4vh;
-    }
   }
 
   .question {
