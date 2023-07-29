@@ -1,0 +1,53 @@
+.answerButton {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+  margin-bottom: 3vh;
+  width: fit-content;
+  height: 8vh;
+}
+
+.answerSvgCorrect {
+  > path {
+    stroke: var(--green-100);
+    fill: var(--orange-5);
+  }
+}
+
+.answerSvgSelected {
+  > path {
+    stroke: var(--orange-100);
+    fill: var(--orange-5);
+  }
+}
+
+.answerSvgWrong {
+  > path {
+    stroke: var(--red-100);
+    fill: var(--red-5);
+  }
+}
+
+.answerSvg:hover:not(.answerSvgCorrect):not(.answerSvgWrong) {
+  > path {
+    stroke: var(--orange-100);
+  }
+}
+
+.letter {
+  font-weight: var(--font-weight-600);
+  font-size: 1.3rem;
+}
+
+.text {
+  color: var(--black-100);
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .answerButton {
+    width: 100%;
+    height: auto;
+  }
+}

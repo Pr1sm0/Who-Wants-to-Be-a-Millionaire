@@ -11,7 +11,8 @@ module.exports = {
     },
   },
   rules: {
-    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    'no-shadow': 'off',
+    'import/no-extraneous-dependencies': 'off',
     'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
     'import/extensions': [
       'error',
@@ -23,6 +24,7 @@ module.exports = {
         tsx: 'never',
       },
     ],
+    '@typescript-eslint/no-shadow': ['error'],
   },
   extends: ['airbnb', 'airbnb/hooks', 'plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended'],
 };

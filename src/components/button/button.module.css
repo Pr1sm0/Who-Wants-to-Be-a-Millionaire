@@ -1,0 +1,27 @@
+.button {
+  width: 28vmin;
+  height: 6vh;
+  border-radius: 1vmin;
+  background-color: var(--orange-100);
+  color: var(--white-100);
+  font-weight: var(--font-weight-600);
+  font-size: 2.2vh;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--orange-80);
+}
+
+.button:active {
+  background-color: var(--orange-120);
+}
+
+@media only screen and (max-width: 1024px) {
+  .button {
+    width: 90vw;
+    height: 8vh;
+    border-radius: 2vmin;
+  }
+}
