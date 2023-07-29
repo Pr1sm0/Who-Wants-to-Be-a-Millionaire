@@ -19,7 +19,6 @@
     "lint": "eslint src/**/*.{js,ts,tsx} --quiet --fix",
     "lint-staged": "lint-staged",
     "postinstall": "husky install",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "lint-staged": {
