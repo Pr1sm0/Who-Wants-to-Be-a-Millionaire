@@ -2,6 +2,7 @@
   "name": "millionaire",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://pr1sm0.github.io/millionaire/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "react": "^18.2.0",
@@ -17,7 +18,9 @@
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.{js,ts,tsx} --quiet --fix",
     "lint-staged": "lint-staged",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "lint-staged": {
     "*.{js,ts,tsx}": [
