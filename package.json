@@ -2,7 +2,7 @@
   "name": "who-wants-to-be-a-millionaire",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pr1sm0.github.io/millionaire/",
+  "homepage": "https://pr1sm0.github.io/who-wants-to-be-a-millionaire/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "react": "^18.2.0",
